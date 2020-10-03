@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+
+#headermenu {
+	display: table;
+}
+
+.menu_item {
+	display: table-cell;
+	padding-right: 20px;
+}
+
+a:link {
+	color: conrnflowerBlue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: indigo;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:active {
+	color: red;
+}
+
+#headermenu a:link {
+	font-size: larger;
+}
+
+.pageheading {
+	color: darkblue;
+}
+
+table {
+	border: 1px solid back;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	background: lightblue;
+	font-size: larger;
+}
+
+table.form {
+	padding: 5px;
+	width: 80%;
+	border: 0;
+	margin: 0 auto;
+}
+table.form1 {
+	padding: 5px;
+	width: 80%;
+	border: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+button {
+	padding: 10px;
+	border-radius: 10px;
+}
+
+button[type=submit] {
+	font-weight: bold;
+}
+
+input {
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: green;
+	
+}
+
+button:hover {
+	background-color: white;
+	color: green;
+}
+
+.message {
+	font-style: italic;
+	color: blue;
+}
+
+.error {
+	color: red;
+	margin: 5px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+div.book {
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+div.book_group {
+	width: 80%;
+	margin: 0 auto;
+}
+div.center {
+	text-align: center;
+}
+div.next-row{
+	clear: both;
+}
+img.book-small{
+	width: 128px;
+	height: 164px;
+}
+
+img.book-large{
+	width: 240px;
+	height: 300px;
+}
+table.book{
+	width: 80%;
+	border: 0 auto;
+}
+div.center1{
+	text-align: center;
+	width:80%;
+	 margin:0  auto;
+}
+
+#book-title{
+	font-size: x-large;
+	font-weight: bold;
+}
+#author{
+	font-size: large;
+	font-style: italic;
+	
+}
+#description{
+	text-align: justify;
+	vertical-align: top;
+}
+.book-search{
+	text-align: left;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+#search-image{
+	display: inline-block; 
+	margin: 10px;
+	 width: 10%;
+}
+#search-description{
+	display: inline-block; 
+	margin: 10px;
+	vertical-align: top;
+	 width: 60%;
+	 text-align: left;
+	
+}
+#search-price{
+	display: inline-block;
+	 margin: 10px;
+	 vertical-align: top;
+}
